@@ -1,9 +1,9 @@
 soma = 0
 print ("DIGITE 0 PARA FECHAR")
 while True:
-    numero = int(input("DIGITE UM NUMERO POSITIVO: "))
-    if numero == 0:
+    n1 = int(input("DIGITE UM NUMERO POSITIVO: "))
+    if n1 == 0:
         break
-    soma += numero
+    soma += n1
 
 print("A soma de todos os números digitados é:", soma)
